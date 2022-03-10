@@ -1,0 +1,194 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert {'code': 1010...sg': '生日格式错误'} == {'code': 1013...、手机号、邮箱已经被注册'}\n  Differing items:\n  {'msg': '生日格式错误'} != {'msg': '该用户名、手机号、邮箱已经被注册'}\n  {'code': 1010} != {'code': 1013}\n  Full diff:\n  - {'code': 1013, 'msg': '该用户名、手机号、邮箱已经被注册'}\n  + {'code': 1010, 'msg': '生日格式错误'}",
+      "children" : [ {
+        "name" : "生日超出当前时间",
+        "uid" : "437d25a039f847bd",
+        "parentUid" : "1a70f447a356cf19bd6f0000865ff650",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815133566,
+          "stop" : 1646815133690,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCC74128>" ]
+      }, {
+        "name" : "生日为不合理的时间",
+        "uid" : "55fcac0080cc4c8c",
+        "parentUid" : "1a70f447a356cf19bd6f0000865ff650",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815133698,
+          "stop" : 1646815133819,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCC740B8>" ]
+      } ],
+      "uid" : "1a70f447a356cf19bd6f0000865ff650"
+    }, {
+      "name" : "AssertionError: assert {'code': 1011...请检查token是否失效'} == {'code': 1013...': '产品名称不能重复'}\n  Differing items:\n  {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '产品名称不能重复'}\n  {'code': 1011} != {'code': 1013}\n  Full diff:\n  - {'code': 1013, 'msg': '产品名称不能重复'}\n  + {'code': 1011, 'msg': '鉴权失败,请检查token是否失效'}",
+      "children" : [ {
+        "name" : "测试商品信息录入—上一次token值",
+        "uid" : "a07f62ea2544f2c8",
+        "parentUid" : "263c62790cd7fe95111a8f7c78d1f61f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815135685,
+          "stop" : 1646815135832,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCBF9FD0>" ]
+      } ],
+      "uid" : "263c62790cd7fe95111a8f7c78d1f61f"
+    }, {
+      "name" : "AssertionError: assert {'code': 1000...': '促销开启设置成功'} == {'code': 1006...'促销结束时间格式不正确'}\n  Differing items:\n  {'msg': '促销开启设置成功'} != {'msg': '促销结束时间格式不正确'}\n  {'code': 1000} != {'code': 1006}\n  Full diff:\n  - {'code': 1006, 'msg': '促销结束时间格式不正确'}\n  ?             ^            ^^^^^^^^^\n  + {'code': 1000, 'msg': '促销开启设置成功'}...\n  \n  ...Full output truncated (2 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "正常流程",
+        "uid" : "d86c013a102de625",
+        "parentUid" : "037744dbc6779bf3602b3681e83de6b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815138655,
+          "stop" : 1646815138786,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCC77A58>" ]
+      } ],
+      "uid" : "037744dbc6779bf3602b3681e83de6b4"
+    }, {
+      "name" : "AssertionError: assert {'code': 1007...请检查token是否失效'} == {'code': 1000...'msg': '查询成功'}\n  Differing items:\n  {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '查询成功'}\n  {'code': 1007} != {'code': 1000}\n  Right contains 1 more item:\n  {'goods_tiems': [{'goodsName': '预留数据',\n                    'num': 1000,\n                    'promotePrice': 0.0,...\n  \n  ...Full output truncated (135 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "商品信息查询—上一次token值",
+        "uid" : "84080604daa26152",
+        "parentUid" : "09ab16961e603d92df586a23cd48400a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815140895,
+          "stop" : 1646815141046,
+          "duration" : 151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCD05F28>" ]
+      } ],
+      "uid" : "09ab16961e603d92df586a23cd48400a"
+    }, {
+      "name" : "AssertionError: assert '查询成功' in \"{'code': 1008, 'msg': '没有符合条件的数据'}\"\n +  where '查询成功' = <comms.excel_utils.CaseData object at 0x0000028ABCD05C50>.expect\n +  and   \"{'code': 1008, 'msg': '没有符合条件的数据'}\" = str({'code': 1008, 'msg': '没有符合条件的数据'})",
+      "children" : [ {
+        "name" : "商品信息查询—（带商品）销售状态为1、促销状态为1",
+        "uid" : "ad33d9690f1aebaa",
+        "parentUid" : "e5ee343028e046fde5feeab0a9f0767c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815143124,
+          "stop" : 1646815143253,
+          "duration" : 129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCD05C50>" ]
+      } ],
+      "uid" : "e5ee343028e046fde5feeab0a9f0767c"
+    }, {
+      "name" : "AssertionError: assert {'code': 1007...: '用户名或者密码错误'} == {'code': 1000...ZWMzMTFlMA=='}\n  Differing items:\n  {'msg': '用户名或者密码错误'} != {'msg': '登录成功'}\n  {'code': 1007} != {'code': 1000}\n  Right contains 1 more item:\n  {'token': 'MTY0Njg0NTE0NC40ODA3MzU6ZWY5NTI3ODc1ZjNiZWQ3YmY1MTlmODRmZjBjNWU3MDEzZWMzMTFlMA=='}\n  Full diff:\n    {...\n  \n  ...Full output truncated (9 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "测试密码区分大小写的场景",
+        "uid" : "f2da8aaa1f05491d",
+        "parentUid" : "f8c53e3ac4b36a66246ab79e37f74f6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815144476,
+          "stop" : 1646815144666,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCC55978>" ]
+      } ],
+      "uid" : "f8c53e3ac4b36a66246ab79e37f74f6d"
+    }, {
+      "name" : "AssertionError: assert {'code': 1007...: '用户名或者密码错误'} == {'code': 1000...ZTcxY2E3ODU='}\n  Differing items:\n  {'msg': '用户名或者密码错误'} != {'msg': '登录成功'}\n  {'code': 1007} != {'code': 1000}\n  Right contains 1 more item:\n  {'token': 'MTY0Njg0NTE0NC42ODExOTg2OjExYmE4NmRkNjI5OWIzNGRhODc5MDU4OTQ1MTRmOTY4ZTcxY2E3ODU='}\n  Full diff:\n    {...\n  \n  ...Full output truncated (9 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "测试用户名区分大小写的场景",
+        "uid" : "6288c315cd389c54",
+        "parentUid" : "3525e5bc837e4e721d23064e26824bf4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815144676,
+          "stop" : 1646815144803,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCC556A0>" ]
+      } ],
+      "uid" : "3525e5bc837e4e721d23064e26824bf4"
+    }, {
+      "name" : "AssertionError: assert {'code': 1004...请检查token是否失效'} == {'code': 1000...utoTrue', ...}\n  Differing items:\n  {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '查询成功'}\n  {'code': 1004} != {'code': 1000}\n  Right contains 5 more items:\n  {'goods_tiems': [{'goods_name': '预留数据', 'goods_price': 100.0}],\n   'name': 'AutoTrue',\n   'phone': '15888888888',...\n  \n  ...Full output truncated (18 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "订单信息查询——上一次token值",
+        "uid" : "e5d4aae194f88e87",
+        "parentUid" : "6c2aae99d1bab6fc43f2750df9c2dc71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646815145942,
+          "stop" : 1646815146167,
+          "duration" : 225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCE38438>" ]
+      } ],
+      "uid" : "6c2aae99d1bab6fc43f2750df9c2dc71"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

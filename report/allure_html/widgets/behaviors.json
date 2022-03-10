@@ -1,0 +1,81 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "85bac327fb73cfc0858feaa062fced13",
+    "name" : "商品注册模块",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 38,
+      "unknown" : 0,
+      "total" : 40
+    }
+  }, {
+    "uid" : "edc6dbe37c60a47a83fe3d6865b57a24",
+    "name" : "商品信息查询模块",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 25
+    }
+  }, {
+    "uid" : "e4c190b6d1c49e117b8696bdd75c719f",
+    "name" : "商品登录模块",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "e0177f0c1e65d2deb6da7f7c2cb26b87",
+    "name" : "商品信息录入模块",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 24
+    }
+  }, {
+    "uid" : "482cb0eceb64e5b00f28ddfc664229f2",
+    "name" : "商品促销设置模块",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "833c93064f3092d55151b97eb6b2ebe6",
+    "name" : "订单信息查询模块",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "3ac6dd47b685dbb9b94fb844b1000e58",
+    "name" : "商品删除模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

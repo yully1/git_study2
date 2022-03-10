@@ -1,0 +1,144 @@
+{
+  "uid" : "a07f62ea2544f2c8",
+  "name" : "测试商品信息录入—上一次token值",
+  "fullName" : "testcases.test_business_token_goods_input06.test_business_token_goods_input01.TestGoodsInput#test_goods_input",
+  "historyId" : "2c0cfadd4d6462e650a3084fd479cbe4",
+  "time" : {
+    "start" : 1646815135685,
+    "stop" : 1646815135832,
+    "duration" : 147
+  },
+  "description" : "商品信息录入接口测试用例",
+  "descriptionHtml" : "<p>商品信息录入接口测试用例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'code': 1011...请检查token是否失效'} == {'code': 1013...': '产品名称不能重复'}\n  Differing items:\n  {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '产品名称不能重复'}\n  {'code': 1011} != {'code': 1013}\n  Full diff:\n  - {'code': 1013, 'msg': '产品名称不能重复'}\n  + {'code': 1011, 'msg': '鉴权失败,请检查token是否失效'}",
+  "statusTrace" : "E   AssertionError: assert {'code': 1011...请检查token是否失效'} == {'code': 1013...': '产品名称不能重复'}\n      Differing items:\n      {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '产品名称不能重复'}\n      {'code': 1011} != {'code': 1013}\n      Full diff:\n      - {'code': 1013, 'msg': '产品名称不能重复'}\n      + {'code': 1011, 'msg': '鉴权失败,请检查token是否失效'}",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "connect_db",
+    "time" : {
+      "start" : 1646815135682,
+      "stop" : 1646815135685,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "商品信息录入接口测试用例",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'code': 1011...请检查token是否失效'} == {'code': 1013...': '产品名称不能重复'}\n  Differing items:\n  {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '产品名称不能重复'}\n  {'code': 1011} != {'code': 1013}\n  Full diff:\n  - {'code': 1013, 'msg': '产品名称不能重复'}\n  + {'code': 1011, 'msg': '鉴权失败,请检查token是否失效'}",
+    "statusTrace" : "E   AssertionError: assert {'code': 1011...请检查token是否失效'} == {'code': 1013...': '产品名称不能重复'}\n      Differing items:\n      {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '产品名称不能重复'}\n      {'code': 1011} != {'code': 1013}\n      Full diff:\n      - {'code': 1013, 'msg': '产品名称不能重复'}\n      + {'code': 1011, 'msg': '鉴权失败,请检查token是否失效'}",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9aa6a44eae81846",
+      "name" : "接口路径",
+      "source" : "f9aa6a44eae81846.attach",
+      "type" : "text/plain",
+      "size" : 42
+    }, {
+      "uid" : "5e72ea211d16c2a",
+      "name" : "请求参数",
+      "source" : "5e72ea211d16c2a.attach",
+      "type" : "text/plain",
+      "size" : 142
+    }, {
+      "uid" : "dbc4a567ce6d157d",
+      "name" : "响应结果",
+      "source" : "dbc4a567ce6d157d.attach",
+      "type" : "text/plain",
+      "size" : 49
+    }, {
+      "uid" : "8c5e996145f30bee",
+      "name" : "log",
+      "source" : "8c5e996145f30bee.txt",
+      "type" : "text/plain",
+      "size" : 2164
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "connect_db::0",
+    "time" : {
+      "start" : 1646815135836,
+      "stop" : 1646815135836,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "商品信息录入模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.test_business_token_goods_input06"
+  }, {
+    "name" : "suite",
+    "value" : "test_business_token_goods_input01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGoodsInput"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-69376HL"
+  }, {
+    "name" : "thread",
+    "value" : "1264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_business_token_goods_input06.test_business_token_goods_input01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<comms.excel_utils.CaseData object at 0x0000028ABCBF9FD0>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a07f62ea2544f2c8.json",
+  "parameterValues" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCBF9FD0>" ]
+}

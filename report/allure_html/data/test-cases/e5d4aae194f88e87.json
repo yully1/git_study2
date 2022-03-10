@@ -1,0 +1,144 @@
+{
+  "uid" : "e5d4aae194f88e87",
+  "name" : "订单信息查询——上一次token值",
+  "fullName" : "testcases.test_business_token_order_items05.test_business_token_order_items01.TestOrderItems#test_order_items",
+  "historyId" : "68a723706b98d660a86561b104fd77b2",
+  "time" : {
+    "start" : 1646815145942,
+    "stop" : 1646815146167,
+    "duration" : 225
+  },
+  "description" : "订单信息查询接口测试用例",
+  "descriptionHtml" : "<p>订单信息查询接口测试用例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'code': 1004...请检查token是否失效'} == {'code': 1000...utoTrue', ...}\n  Differing items:\n  {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '查询成功'}\n  {'code': 1004} != {'code': 1000}\n  Right contains 5 more items:\n  {'goods_tiems': [{'goods_name': '预留数据', 'goods_price': 100.0}],\n   'name': 'AutoTrue',\n   'phone': '15888888888',...\n  \n  ...Full output truncated (18 lines hidden), use '-vv' to show",
+  "statusTrace" : "E   AssertionError: assert {'code': 1004...请检查token是否失效'} == {'code': 1000...utoTrue', ...}\n      Differing items:\n      {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '查询成功'}\n      {'code': 1004} != {'code': 1000}\n      Right contains 5 more items:\n      {'goods_tiems': [{'goods_name': '预留数据', 'goods_price': 100.0}],\n       'name': 'AutoTrue',\n       'phone': '15888888888',...\n      \n      ...Full output truncated (18 lines hidden), use '-vv' to show",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "connect_db",
+    "time" : {
+      "start" : 1646815145936,
+      "stop" : 1646815145941,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "订单信息查询接口测试用例",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'code': 1004...请检查token是否失效'} == {'code': 1000...utoTrue', ...}\n  Differing items:\n  {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '查询成功'}\n  {'code': 1004} != {'code': 1000}\n  Right contains 5 more items:\n  {'goods_tiems': [{'goods_name': '预留数据', 'goods_price': 100.0}],\n   'name': 'AutoTrue',\n   'phone': '15888888888',...\n  \n  ...Full output truncated (18 lines hidden), use '-vv' to show",
+    "statusTrace" : "E   AssertionError: assert {'code': 1004...请检查token是否失效'} == {'code': 1000...utoTrue', ...}\n      Differing items:\n      {'msg': '鉴权失败,请检查token是否失效'} != {'msg': '查询成功'}\n      {'code': 1004} != {'code': 1000}\n      Right contains 5 more items:\n      {'goods_tiems': [{'goods_name': '预留数据', 'goods_price': 100.0}],\n       'name': 'AutoTrue',\n       'phone': '15888888888',...\n      \n      ...Full output truncated (18 lines hidden), use '-vv' to show",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2a0e65b482ed4d04",
+      "name" : "接口路径",
+      "source" : "2a0e65b482ed4d04.attach",
+      "type" : "text/plain",
+      "size" : 42
+    }, {
+      "uid" : "95f9b128f5afacc0",
+      "name" : "请求参数",
+      "source" : "95f9b128f5afacc0.attach",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "512ea6ec116d92da",
+      "name" : "响应结果",
+      "source" : "512ea6ec116d92da.attach",
+      "type" : "text/plain",
+      "size" : 191
+    }, {
+      "uid" : "3501b8606541d534",
+      "name" : "log",
+      "source" : "3501b8606541d534.txt",
+      "type" : "text/plain",
+      "size" : 2423
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "connect_db::0",
+    "time" : {
+      "start" : 1646815146172,
+      "stop" : 1646815146172,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "订单信息查询模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.test_business_token_order_items05"
+  }, {
+    "name" : "suite",
+    "value" : "test_business_token_order_items01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderItems"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-69376HL"
+  }, {
+    "name" : "thread",
+    "value" : "1264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_business_token_order_items05.test_business_token_order_items01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<comms.excel_utils.CaseData object at 0x0000028ABCE38438>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e5d4aae194f88e87.json",
+  "parameterValues" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCE38438>" ]
+}

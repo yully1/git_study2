@@ -1,0 +1,1251 @@
+[ {
+  "uid" : "c7211ca5ffc6ef88",
+  "name" : "商品信息查询—不存在的商品编号（6位数字）",
+  "time" : {
+    "start" : 1646815143808,
+    "stop" : 1646815143939,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f2da8aaa1f05491d",
+  "name" : "测试密码区分大小写的场景",
+  "time" : {
+    "start" : 1646815144476,
+    "stop" : 1646815144666,
+    "duration" : 190
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "60d6b7a23f093842",
+  "name" : "测试商品编号格式错误",
+  "time" : {
+    "start" : 1646815134956,
+    "stop" : 1646815135083,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4dc197e4473c6f0f",
+  "name" : "商品信息查询—（带商品）促销状态为1",
+  "time" : {
+    "start" : 1646815142557,
+    "stop" : 1646815142684,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "29e42aa5176b1ba8",
+  "name" : "密码为6位无效边界值的场景",
+  "time" : {
+    "start" : 1646815130960,
+    "stop" : 1646815131100,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d86c013a102de625",
+  "name" : "正常流程",
+  "time" : {
+    "start" : 1646815138655,
+    "stop" : 1646815138786,
+    "duration" : 131
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5176140df647e51d",
+  "name" : "用户名中包含空格的场景",
+  "time" : {
+    "start" : 1646815130303,
+    "stop" : 1646815130420,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3688fdef13dbe953",
+  "name" : "测试密码输入错误的场景",
+  "time" : {
+    "start" : 1646815144338,
+    "stop" : 1646815144468,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "88d34b0106cc641a",
+  "name" : "商品信息查询—（不带商品）销售状态为0、促销状态为1",
+  "time" : {
+    "start" : 1646815141743,
+    "stop" : 1646815141873,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b2d9427e219f1d1a",
+  "name" : "测试商品编号为空",
+  "time" : {
+    "start" : 1646815139899,
+    "stop" : 1646815140051,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "182434e62332d7b6",
+  "name" : "测试商品价格为0",
+  "time" : {
+    "start" : 1646815138523,
+    "stop" : 1646815138647,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d28223c56cb17ce2",
+  "name" : "商品信息查询—（带商品）销售状态为1、促销状态为0",
+  "time" : {
+    "start" : 1646815142970,
+    "stop" : 1646815143117,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7a8241c1f4fa903",
+  "name" : "测试用户类型为空的场景",
+  "time" : {
+    "start" : 1646815144979,
+    "stop" : 1646815145105,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b004fd099b6ab6d3",
+  "name" : "测试商品名为空的场景",
+  "time" : {
+    "start" : 1646815135841,
+    "stop" : 1646815135968,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d7a3763558070cc",
+  "name" : "商品信息查询—（不带商品）销售状态为0",
+  "time" : {
+    "start" : 1646815141055,
+    "stop" : 1646815141179,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f37d80c8b6f548b9",
+  "name" : "用户名前包含空格的场景",
+  "time" : {
+    "start" : 1646815130179,
+    "stop" : 1646815130297,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "837605da647a442f",
+  "name" : "测试商品编号的商品没下架",
+  "time" : {
+    "start" : 1646815135089,
+    "stop" : 1646815135215,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c688198e671f3dbc",
+  "name" : "订单信息查询订单编号错误",
+  "time" : {
+    "start" : 1646815146368,
+    "stop" : 1646815146665,
+    "duration" : 297
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6b24db13727ff1f",
+  "name" : "测试促销开始时间为空的场景",
+  "time" : {
+    "start" : 1646815138794,
+    "stop" : 1646815138922,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b176d2fbdd91536",
+  "name" : "商品信息查询—促销状态为非枚举",
+  "time" : {
+    "start" : 1646815143399,
+    "stop" : 1646815143528,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c6c68076d24a09b1",
+  "name" : "邮箱格式错误的场景",
+  "time" : {
+    "start" : 1646815134244,
+    "stop" : 1646815134361,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e5d4aae194f88e87",
+  "name" : "订单信息查询——上一次token值",
+  "time" : {
+    "start" : 1646815145942,
+    "stop" : 1646815146167,
+    "duration" : 225
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "244514347b106976",
+  "name" : "生日为空的场景",
+  "time" : {
+    "start" : 1646815133179,
+    "stop" : 1646815133311,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e09da2c65dca9dc",
+  "name" : "性别为男+女的场景",
+  "time" : {
+    "start" : 1646815133048,
+    "stop" : 1646815133173,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3825cf04577a66d9",
+  "name" : "商品信息查询—（带商品）销售状态为0、促销状态为1",
+  "time" : {
+    "start" : 1646815142828,
+    "stop" : 1646815142962,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0c7ce4ab774daf9",
+  "name" : "用户名为5位无效边界值的场景",
+  "time" : {
+    "start" : 1646815129681,
+    "stop" : 1646815129798,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dfb75ea8b3f08ef9",
+  "name" : "测试促销开始时间小于当前时间",
+  "time" : {
+    "start" : 1646815139223,
+    "stop" : 1646815139349,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93cd84ad8f55c94f",
+  "name" : "正常流程",
+  "time" : {
+    "start" : 1646815134514,
+    "stop" : 1646815134677,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f45e7fd72729f64f",
+  "name" : "密码纯字母的场景",
+  "time" : {
+    "start" : 1646815131352,
+    "stop" : 1646815131493,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "56f4b148af99e79b",
+  "name" : "测试销结束时间非日期类型",
+  "time" : {
+    "start" : 1646815139766,
+    "stop" : 1646815139893,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79d535f7bb280ea6",
+  "name" : "测试商品名无效边界的场景",
+  "time" : {
+    "start" : 1646815136125,
+    "stop" : 1646815136255,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "869157c1b6023550",
+  "name" : "手机号为非11位数字的场景",
+  "time" : {
+    "start" : 1646815132261,
+    "stop" : 1646815132379,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c9d0145840d8c9de",
+  "name" : "确认密码与密码不一致的场景",
+  "time" : {
+    "start" : 1646815131882,
+    "stop" : 1646815132005,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "15b846d6a907a7e4",
+  "name" : "商品信息查询—（不带商品）促销状态为1",
+  "time" : {
+    "start" : 1646815141451,
+    "stop" : 1646815141603,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7a125e3d30e99629",
+  "name" : "用户名已存在的场景",
+  "time" : {
+    "start" : 1646815129928,
+    "stop" : 1646815130048,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9a42298b29bc7cea",
+  "name" : "用户名为8位有效边界值的场景",
+  "time" : {
+    "start" : 1646815129532,
+    "stop" : 1646815129675,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "29da723c530e8a8f",
+  "name" : "商品信息查询—销售状态为非枚举",
+  "time" : {
+    "start" : 1646815143263,
+    "stop" : 1646815143393,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3c0c81fbf3225cdc",
+  "name" : "用户名后包含空格的场景",
+  "time" : {
+    "start" : 1646815130426,
+    "stop" : 1646815130549,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "efc2e2973d1800f3",
+  "name" : "测试商品价格为空",
+  "time" : {
+    "start" : 1646815137791,
+    "stop" : 1646815137933,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "648c7fc432d6015d",
+  "name" : "性别为非枚举值的场景",
+  "time" : {
+    "start" : 1646815132924,
+    "stop" : 1646815133041,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1579cd8d3c8ac87",
+  "name" : "商品信息查询—商品编号非6位数字",
+  "time" : {
+    "start" : 1646815143671,
+    "stop" : 1646815143801,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1f0a21055c872e74",
+  "name" : "用户名包含特殊符号的场景",
+  "time" : {
+    "start" : 1646815130054,
+    "stop" : 1646815130172,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a99af0fc27f3aec3",
+  "name" : "手机号已注册的场景",
+  "time" : {
+    "start" : 1646815132662,
+    "stop" : 1646815132782,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b592f9265ddebe6c",
+  "name" : "正常流程",
+  "time" : {
+    "start" : 1646815143947,
+    "stop" : 1646815144072,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e5b3cbed7b6cfb18",
+  "name" : "密码区分大小写的场景",
+  "time" : {
+    "start" : 1646815131630,
+    "stop" : 1646815131748,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f68bbd828c74c273",
+  "name" : "测试商品名有效边界的场景",
+  "time" : {
+    "start" : 1646815135973,
+    "stop" : 1646815136117,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "293cab6fef766877",
+  "name" : "性别为空的场景的场景",
+  "time" : {
+    "start" : 1646815132789,
+    "stop" : 1646815132918,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a07f62ea2544f2c8",
+  "name" : "测试商品信息录入—上一次token值",
+  "time" : {
+    "start" : 1646815135685,
+    "stop" : 1646815135832,
+    "duration" : 147
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6022aae8a57804a3",
+  "name" : "测试商品库存为小数",
+  "time" : {
+    "start" : 1646815137384,
+    "stop" : 1646815137511,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ca52c79fa79482f",
+  "name" : "测试商品库存为空",
+  "time" : {
+    "start" : 1646815137109,
+    "stop" : 1646815137238,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcd4cf8e86a66f67",
+  "name" : "订单信息查询—token为空",
+  "time" : {
+    "start" : 1646815145579,
+    "stop" : 1646815145704,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b41d81de6f2da8fe",
+  "name" : "商品信息查询—（带商品）销售状态为0",
+  "time" : {
+    "start" : 1646815142155,
+    "stop" : 1646815142285,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0129b01e2aa8048",
+  "name" : "qq为空的场景",
+  "time" : {
+    "start" : 1646815133827,
+    "stop" : 1646815133977,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2098f4dd617ab914",
+  "name" : "密码包含特殊符号的场景",
+  "time" : {
+    "start" : 1646815131229,
+    "stop" : 1646815131346,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "10001df0947e53a2",
+  "name" : "测试用户类型非普通的场景",
+  "time" : {
+    "start" : 1646815145112,
+    "stop" : 1646815145231,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1905d22c8c37cc47",
+  "name" : "订单信息查询订单编号为空",
+  "time" : {
+    "start" : 1646815146180,
+    "stop" : 1646815146359,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3d3a08074a20a61",
+  "name" : "商品信息查询—（不带商品）销售状态为1",
+  "time" : {
+    "start" : 1646815141186,
+    "stop" : 1646815141311,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a408e5c1f796b38f",
+  "name" : "用户名为空的场景",
+  "time" : {
+    "start" : 1646815129402,
+    "stop" : 1646815129525,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1296cfaa58e7db78",
+  "name" : "商品信息查询主流程",
+  "time" : {
+    "start" : 1646815140463,
+    "stop" : 1646815140592,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e4d3eb4ebfbad098",
+  "name" : "用户名以非字母开头的场景",
+  "time" : {
+    "start" : 1646815130556,
+    "stop" : 1646815130685,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4f25d1a198b0d38f",
+  "name" : "测试该商品已经在促销状态，不能再次开启促销",
+  "time" : {
+    "start" : 1646815140325,
+    "stop" : 1646815140456,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da28179189600ba1",
+  "name" : "测试商品价格为整数",
+  "time" : {
+    "start" : 1646815138358,
+    "stop" : 1646815138516,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f4b031bd093fb39",
+  "name" : "商品信息查询—（不带商品）促销状态为0",
+  "time" : {
+    "start" : 1646815141318,
+    "stop" : 1646815141445,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9868d009ca392380",
+  "name" : "商品信息查询—（带商品）销售状态为1",
+  "time" : {
+    "start" : 1646815142292,
+    "stop" : 1646815142418,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ff7788bfcc5f28a8",
+  "name" : "测试商品库存为负数",
+  "time" : {
+    "start" : 1646815137517,
+    "stop" : 1646815137643,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "437d25a039f847bd",
+  "name" : "生日超出当前时间",
+  "time" : {
+    "start" : 1646815133566,
+    "stop" : 1646815133690,
+    "duration" : 124
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "2d551502ff221de2",
+  "name" : "订单信息查询主流程",
+  "time" : {
+    "start" : 1646815145401,
+    "stop" : 1646815145572,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f30808120ffc7e18",
+  "name" : "手机号为非数字的场景",
+  "time" : {
+    "start" : 1646815132385,
+    "stop" : 1646815132526,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cb009cb0900f748a",
+  "name" : "商品信息查询—（带商品）销售状态为0、促销状态为0",
+  "time" : {
+    "start" : 1646815142690,
+    "stop" : 1646815142821,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d304810e159dfa9e",
+  "name" : "qq为非数字",
+  "time" : {
+    "start" : 1646815133983,
+    "stop" : 1646815134104,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "84080604daa26152",
+  "name" : "商品信息查询—上一次token值",
+  "time" : {
+    "start" : 1646815140895,
+    "stop" : 1646815141046,
+    "duration" : 151
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "6288c315cd389c54",
+  "name" : "测试用户名区分大小写的场景",
+  "time" : {
+    "start" : 1646815144676,
+    "stop" : 1646815144803,
+    "duration" : 127
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "589ff83faf70bac0",
+  "name" : "测试用户名为空的场景",
+  "time" : {
+    "start" : 1646815144210,
+    "stop" : 1646815144329,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eff4aac6e7b390b9",
+  "name" : "测试商品库存为字符",
+  "time" : {
+    "start" : 1646815137650,
+    "stop" : 1646815137785,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc871f35716c979d",
+  "name" : "密码纯数字的场景",
+  "time" : {
+    "start" : 1646815131506,
+    "stop" : 1646815131624,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "db4bce371bc8f13d",
+  "name" : "测试商品名已存在的场景",
+  "time" : {
+    "start" : 1646815136262,
+    "stop" : 1646815136389,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "414876b211d9fde7",
+  "name" : "测试商品编号为空",
+  "time" : {
+    "start" : 1646815134686,
+    "stop" : 1646815134811,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5350d5f5ab8bbe3c",
+  "name" : "生日为非数字",
+  "time" : {
+    "start" : 1646815133441,
+    "stop" : 1646815133559,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6599169550c49809",
+  "name" : "正常的流程",
+  "time" : {
+    "start" : 1646815135223,
+    "stop" : 1646815135360,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68b9e31f70101a86",
+  "name" : "邮箱为空的场景",
+  "time" : {
+    "start" : 1646815134111,
+    "stop" : 1646815134238,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ec317e2bb72427b7",
+  "name" : "测试用户类型格式错误的场景",
+  "time" : {
+    "start" : 1646815145238,
+    "stop" : 1646815145377,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e41f2027f06b382d",
+  "name" : "测试促销开始时间格式错误的",
+  "time" : {
+    "start" : 1646815138928,
+    "stop" : 1646815139072,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a51a925e319148ca",
+  "name" : "确认密码区分大小写的场景",
+  "time" : {
+    "start" : 1646815132012,
+    "stop" : 1646815132131,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5f926c642dbb0ac5",
+  "name" : "订单信息查询—token区分大小写",
+  "time" : {
+    "start" : 1646815145713,
+    "stop" : 1646815145930,
+    "duration" : 217
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "55fcac0080cc4c8c",
+  "name" : "生日为不合理的时间",
+  "time" : {
+    "start" : 1646815133698,
+    "stop" : 1646815133819,
+    "duration" : 121
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "ad33d9690f1aebaa",
+  "name" : "商品信息查询—（带商品）销售状态为1、促销状态为1",
+  "time" : {
+    "start" : 1646815143124,
+    "stop" : 1646815143253,
+    "duration" : 129
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c36be39df7581220",
+  "name" : "商品信息查询—（带商品）促销状态为0",
+  "time" : {
+    "start" : 1646815142424,
+    "stop" : 1646815142551,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "63da6364b7877751",
+  "name" : "测试促销开始时间非日期类型",
+  "time" : {
+    "start" : 1646815139080,
+    "stop" : 1646815139217,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5244ebb620d8d0bb",
+  "name" : "商品信息查询—存在的商品编号（6位数字）",
+  "time" : {
+    "start" : 1646815143535,
+    "stop" : 1646815143664,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "135ff95af5a09730",
+  "name" : "邮箱已注册的场景",
+  "time" : {
+    "start" : 1646815134367,
+    "stop" : 1646815134506,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f6175c05a6f1ab7b",
+  "name" : "测试销结束时间小于促销开始时间",
+  "time" : {
+    "start" : 1646815139632,
+    "stop" : 1646815139760,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3193ef75b5c0a72",
+  "name" : "用户名为9位无效边界值的场景",
+  "time" : {
+    "start" : 1646815129804,
+    "stop" : 1646815129922,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7d93c21b581b389c",
+  "name" : "测试商品编号不存在",
+  "time" : {
+    "start" : 1646815134818,
+    "stop" : 1646815134948,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7eb846a4f0a30605",
+  "name" : "密码为12位无效边界值的场景",
+  "time" : {
+    "start" : 1646815131106,
+    "stop" : 1646815131223,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "328928f6e95c36a1",
+  "name" : "测试商品描述有效边界",
+  "time" : {
+    "start" : 1646815136804,
+    "stop" : 1646815136942,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a15ed7db4b5ca508",
+  "name" : "测试商品编号不存在",
+  "time" : {
+    "start" : 1646815140057,
+    "stop" : 1646815140186,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d8112fa2965f7b",
+  "name" : "测试商品价格超过最大值",
+  "time" : {
+    "start" : 1646815138219,
+    "stop" : 1646815138351,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "904de4979ba12df2",
+  "name" : "测试商品库存最大整数",
+  "time" : {
+    "start" : 1646815137244,
+    "stop" : 1646815137377,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1aabcb769990e2f",
+  "name" : "测试促销结束时间为空",
+  "time" : {
+    "start" : 1646815139356,
+    "stop" : 1646815139486,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fce6209aa2ba567",
+  "name" : "正确流程",
+  "time" : {
+    "start" : 1646815129266,
+    "stop" : 1646815129396,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5d68e8aa7f6cfaf7",
+  "name" : "手机号为空的场景",
+  "time" : {
+    "start" : 1646815132137,
+    "stop" : 1646815132255,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ae6d4a755af331ec",
+  "name" : "密码为8位有效边界值的场景",
+  "time" : {
+    "start" : 1646815130821,
+    "stop" : 1646815130952,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c5c56891366ad3fc",
+  "name" : "测试商品分类id为空",
+  "time" : {
+    "start" : 1646815136395,
+    "stop" : 1646815136522,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "592a261e949f0c4e",
+  "name" : "商品信息查询—token区分大小写",
+  "time" : {
+    "start" : 1646815140729,
+    "stop" : 1646815140888,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9ceeb0e5661fd3d8",
+  "name" : "订单信息查询订单编号不存在",
+  "time" : {
+    "start" : 1646815146678,
+    "stop" : 1646815146896,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3ac8ce23cd4031b0",
+  "name" : "测试用户名错误的场景",
+  "time" : {
+    "start" : 1646815144078,
+    "stop" : 1646815144203,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0a2b80ce5223183",
+  "name" : "商品信息查询—（不带商品）销售状态为0、促销状态为0",
+  "time" : {
+    "start" : 1646815141610,
+    "stop" : 1646815141736,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7f9fe22f3ef5adef",
+  "name" : "测试促销结束格式错误的",
+  "time" : {
+    "start" : 1646815139492,
+    "stop" : 1646815139625,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "792eb5d725ce200b",
+  "name" : "测试商品信息录入—token为空",
+  "time" : {
+    "start" : 1646815135366,
+    "stop" : 1646815135536,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28d3bf992b841b16",
+  "name" : "测试商品编号格式错误",
+  "time" : {
+    "start" : 1646815140193,
+    "stop" : 1646815140319,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8458630d8dbcbbf",
+  "name" : "测试商品描述为空",
+  "time" : {
+    "start" : 1646815136662,
+    "stop" : 1646815136798,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "334da0f042bdd280",
+  "name" : "手机号为不支持的号段的场景",
+  "time" : {
+    "start" : 1646815132532,
+    "stop" : 1646815132656,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ea181124f46fb36a",
+  "name" : "商品信息查询—token为空",
+  "time" : {
+    "start" : 1646815140598,
+    "stop" : 1646815140723,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "467dbeb92576954",
+  "name" : "测试商品信息录入——token区分大小写",
+  "time" : {
+    "start" : 1646815135545,
+    "stop" : 1646815135679,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceb32148fe24d87d",
+  "name" : "测试商品分类id不存在",
+  "time" : {
+    "start" : 1646815136528,
+    "stop" : 1646815136656,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "569d9c299bf8fe82",
+  "name" : "密码为空的场景",
+  "time" : {
+    "start" : 1646815130692,
+    "stop" : 1646815130814,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f73489d570472e25",
+  "name" : "生日为非时间格式的场景",
+  "time" : {
+    "start" : 1646815133317,
+    "stop" : 1646815133435,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "827b7fc0cce6f648",
+  "name" : "test_regist_json[case0]",
+  "time" : {
+    "start" : 1646815129115,
+    "stop" : 1646815129259,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca27c81c6218cd6",
+  "name" : "商品信息查询—（不带商品）销售状态为1、促销状态为1",
+  "time" : {
+    "start" : 1646815142015,
+    "stop" : 1646815142147,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1bf0714af40519a1",
+  "name" : "商品信息查询—（不带商品）销售状态为1、促销状态为0",
+  "time" : {
+    "start" : 1646815141879,
+    "stop" : 1646815142009,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4c73a6927e0394ef",
+  "name" : "测试密码为空的场景",
+  "time" : {
+    "start" : 1646815144812,
+    "stop" : 1646815144970,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aead90f708de16c5",
+  "name" : "确认密码为空的场景",
+  "time" : {
+    "start" : 1646815131754,
+    "stop" : 1646815131874,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8368a6f689ffd26d",
+  "name" : "测试商品描述无效边界",
+  "time" : {
+    "start" : 1646815136949,
+    "stop" : 1646815137102,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26a885a2345d7b4f",
+  "name" : "测试商品价格非两位小数的数字",
+  "time" : {
+    "start" : 1646815138084,
+    "stop" : 1646815138213,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "136d7b3663372b8c",
+  "name" : "测试商品价格有效数字：最大值边界",
+  "time" : {
+    "start" : 1646815137940,
+    "stop" : 1646815138078,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

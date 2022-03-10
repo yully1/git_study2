@@ -1,0 +1,14 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 127.0.0.1:6666
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://127.0.0.1:6666 "POST /business/token_login HTTP/1.1" 200 130
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 127.0.0.1:6666
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://127.0.0.1:6666 "POST /business/token_goodsInfo HTTP/1.1" 200 52
+ERROR    root:test_business_token_goodsinfo03.py:96 测试编号20，测试标题商品信息查询—（带商品）销售状态为1、促销状态为1，执行失败，实际结果为{'code': 1008, 'msg': '没有符合条件的数据'}
+ERROR    root:test_business_token_goodsinfo03.py:97 assert '查询成功' in "{'code': 1008, 'msg': '没有符合条件的数据'}"
+ +  where '查询成功' = <comms.excel_utils.CaseData object at 0x0000028ABCD05C50>.expect
+ +  and   "{'code': 1008, 'msg': '没有符合条件的数据'}" = str({'code': 1008, 'msg': '没有符合条件的数据'})
+Traceback (most recent call last):
+  File "D:\PythonWorkSpace\autotest\testcases\test_business_token_goodsinfo04\test_business_token_goodsinfo03.py", line 86, in test_goods_info
+    assert case.expect in str(res)  # 判断响应体包含查询成功
+AssertionError: assert '查询成功' in "{'code': 1008, 'msg': '没有符合条件的数据'}"
+ +  where '查询成功' = <comms.excel_utils.CaseData object at 0x0000028ABCD05C50>.expect
+ +  and   "{'code': 1008, 'msg': '没有符合条件的数据'}" = str({'code': 1008, 'msg': '没有符合条件的数据'})

@@ -1,0 +1,144 @@
+{
+  "uid" : "ad33d9690f1aebaa",
+  "name" : "商品信息查询—（带商品）销售状态为1、促销状态为1",
+  "fullName" : "testcases.test_business_token_goodsinfo04.test_business_token_goodsinfo03.TestGoodsInfo#test_goods_info",
+  "historyId" : "e97c4245230f0eedf770afd8e93f6145",
+  "time" : {
+    "start" : 1646815143124,
+    "stop" : 1646815143253,
+    "duration" : 129
+  },
+  "description" : "商品信息查询模块接口测试用例",
+  "descriptionHtml" : "<p>商品信息查询模块接口测试用例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '查询成功' in \"{'code': 1008, 'msg': '没有符合条件的数据'}\"\n +  where '查询成功' = <comms.excel_utils.CaseData object at 0x0000028ABCD05C50>.expect\n +  and   \"{'code': 1008, 'msg': '没有符合条件的数据'}\" = str({'code': 1008, 'msg': '没有符合条件的数据'})",
+  "statusTrace" : "E   assert '查询成功' in \"{'code': 1008, 'msg': '没有符合条件的数据'}\"\n     +  where '查询成功' = <comms.excel_utils.CaseData object at 0x0000028ABCD05C50>.expect\n     +  and   \"{'code': 1008, 'msg': '没有符合条件的数据'}\" = str({'code': 1008, 'msg': '没有符合条件的数据'})",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "connect_db",
+    "time" : {
+      "start" : 1646815143121,
+      "stop" : 1646815143124,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "商品信息查询模块接口测试用例",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '查询成功' in \"{'code': 1008, 'msg': '没有符合条件的数据'}\"\n +  where '查询成功' = <comms.excel_utils.CaseData object at 0x0000028ABCD05C50>.expect\n +  and   \"{'code': 1008, 'msg': '没有符合条件的数据'}\" = str({'code': 1008, 'msg': '没有符合条件的数据'})",
+    "statusTrace" : "E   assert '查询成功' in \"{'code': 1008, 'msg': '没有符合条件的数据'}\"\n     +  where '查询成功' = <comms.excel_utils.CaseData object at 0x0000028ABCD05C50>.expect\n     +  and   \"{'code': 1008, 'msg': '没有符合条件的数据'}\" = str({'code': 1008, 'msg': '没有符合条件的数据'})",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b80cebf1241c0adc",
+      "name" : "接口路径",
+      "source" : "b80cebf1241c0adc.attach",
+      "type" : "text/plain",
+      "size" : 46
+    }, {
+      "uid" : "a1900516e9085007",
+      "name" : "接口参数",
+      "source" : "a1900516e9085007.attach",
+      "type" : "text/plain",
+      "size" : 75
+    }, {
+      "uid" : "93843b8592fb2bd",
+      "name" : "响应结果",
+      "source" : "93843b8592fb2bd.attach",
+      "type" : "text/plain",
+      "size" : 52
+    }, {
+      "uid" : "a88daddb6430f62d",
+      "name" : "log",
+      "source" : "a88daddb6430f62d.txt",
+      "type" : "text/plain",
+      "size" : 1602
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "connect_db::0",
+    "time" : {
+      "start" : 1646815143256,
+      "stop" : 1646815143257,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "商品信息查询模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.test_business_token_goodsinfo04"
+  }, {
+    "name" : "suite",
+    "value" : "test_business_token_goodsinfo03"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGoodsInfo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-69376HL"
+  }, {
+    "name" : "thread",
+    "value" : "1264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_business_token_goodsinfo04.test_business_token_goodsinfo03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<comms.excel_utils.CaseData object at 0x0000028ABCD05C50>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ad33d9690f1aebaa.json",
+  "parameterValues" : [ "<comms.excel_utils.CaseData object at 0x0000028ABCD05C50>" ]
+}
